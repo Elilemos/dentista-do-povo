@@ -5,6 +5,7 @@ import { Differentials } from "@/components/Differentials";
 import { About } from "@/components/About";
 import { Gallery } from "@/components/Gallery";
 import { Location } from "@/components/location";
+import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <About />
       <Gallery />
       <Location />
+      <Footer />
     </main>
   );
 }
